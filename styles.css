@@ -1,0 +1,33 @@
+body {
+    margin: 0;/* border: 1px solid black; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F9FAF8;
+}
+
+.menu ul {
+    display: flex;
+    gap: 20px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E5E7EB;
+}
